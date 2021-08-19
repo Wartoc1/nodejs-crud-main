@@ -49,4 +49,4 @@ ENGINE = InnoDB;
 
 ---
 
-INSERT INTO `nodejs`.`person` (`firstName`,`lastName`) VALUES ('Bob', 'Bobsen');
+INSERT INTO `nodejs`.`person` (`firstName`,`lastName`) VALUES ('Mikkel', 'Eriksen');

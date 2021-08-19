@@ -1,6 +1,6 @@
-CREATE DATABASE nodejs;
+CREATE DATABASE nodejsmain;
 
-USE nodejs;
+USE nodejsmain;
 
 CREATE TABLE IF NOT EXISTS `person` (
 `id` BIGINT UNSIGNED AUTO_INCREMENT,
@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS `person` (
 PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
-INSERT INTO `nodejs`.`person` (`firstName`,`lastName`) VALUES ('Mikkel', 'Eriksen');
+INSERT INTO `nodejsmain`.`person` (`firstName`,`lastName`) VALUES ('Mikkel', 'Eriksen');

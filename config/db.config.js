@@ -6,7 +6,7 @@ const dbConn = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
   password : 'Passw0rd',
-  database : 'nodejs',
+  database : 'nodejsmain',
   port: 3307
 });
 
