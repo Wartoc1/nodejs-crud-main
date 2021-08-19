@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-crud",
+  "version": "1.0.0",
+  "description": "h5",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaoYeChen/nodejs-crud.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Mikkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaoYeChen/nodejs-crud/issues"
+  },
+  "homepage": "https://github.com/HaoYeChen/nodejs-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
